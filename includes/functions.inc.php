@@ -111,6 +111,8 @@ function loginUser($conn, $username, $pwd){
         exit();
     }
 
+555
+
     $pwdhashed = $uidExists["usersPassword"];
     $checkPwd = password_verify($pwd, $pwdhashed);
 

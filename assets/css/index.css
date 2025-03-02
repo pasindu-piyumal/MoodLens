@@ -837,6 +837,10 @@ button:hover span {
     overflow: hidden;
 }
 
+.button button a{
+    text-decoration: none;
+}
+
 .button button span {
     background: aqua;
     height: 100%;

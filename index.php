@@ -236,7 +236,7 @@
             </div>
             <p>Discover how your emotional state evolves with our Mood Analyzer, which combines data from your social media usage and study schedule. By evaluating the time spent online and the structure of your study routine, the tool reveals patterns in how these activities influence your mood, focus, and overall productivity. It provides detailed insights, such as whether heavy social media use impacts your ability to concentrate or if certain study habits improve your emotional balance. With this understanding, you can make informed changes to optimize both your mood and academic performance.</p>
             <div class="buttons">
-                <button><a href="analyzer.php"><span></span>Analyze Your Mood Now!</a></button>
+                <button><a href="login.php"><span></span>Analyze Your Mood Now!</a></button>
                 
                 <div class="container">
                     <button id="showdetailsbtn" class="button"><span></span>Learn How It Works.</button>
@@ -265,7 +265,7 @@
                 Uncover how your emotional state evolves with our Mood Analyzer, which combines data from your social media usage and study schedule. By evaluating the time spent online and the structure of your study routine, the tool reveals patterns in how these activities influence your mood, focus, and overall productivity. To help you stay on track, our integrated Pomodoro Timer allows you to break your study sessions into manageable intervals, ensuring sustained focus and preventing burnout. With detailed insights and productivity tools like the Pomodoro Timer, you can optimize your study habits, mood, and academic performance effectively.
             </div>
             <div class="button">
-                <button ><a href="pomodoro.php"><span></span>Start</a></button>
+                <button ><a href="login.php"><span></span>Start</a></button>
             </div>
             
         </div>

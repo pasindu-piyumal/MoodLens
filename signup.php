@@ -4,7 +4,7 @@
 
 <div class="form-box register">
             <form action="includes/signup.inc.php" method="POST" enctype="multipart/form-data">
-                <h1>Register</h1>
+                <h1>REGISTER</h1>
                 <div class="input-box">
                     <input name="name" type="text" placeholder="Name" required>
                     <i class='bx bxs-user' ></i>
@@ -18,7 +18,7 @@
                     <i class='bx bxs-user' ></i>
                 </div>
                 <div class="input-box">
-                    <input name="age" type="text" placeholder="Age" required>
+                    <input name="age" type="number" placeholder="Age" required>
                     <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/age.png" alt="age"/>
                 </div>
                 <div class="input-box">

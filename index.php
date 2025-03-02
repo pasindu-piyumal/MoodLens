@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Rounded" rel="stylesheet">
 
 </head>
 <body>
@@ -19,17 +20,50 @@
         <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="#featuresSection">Features</a></li>
-            <li><a href="">Info</a></li>
             <li><a href="">Contact</a></li>
             <?php
             if (isset($_SESSION["username"])) {
                 echo '<li><a href="includes/logout.inc.php">Logout</a></li>';
                 echo '<li><span class="user"><a href=""><a href="profile.php">' . htmlspecialchars($_SESSION["username"]) . '</a> </span></li>';
             } else {
-                echo '<li><a href="login.php">Login</a></li>';  // Show login link if user is not logged in
+                echo '<li><a href="login.php">Login</a></li>';  
             }
             ?>
         </ul>
+    </div>
+
+    <div class="chatbot-icon" onclick="toggleChat()">
+        <img width="50" height="50" src="https://img.icons8.com/nolan/64/chatbot.png" alt="chatbot"/>
+    </div>
+
+    <div class="chatbot-popup" id="chatWindow" style="display: none;">
+        <div class="chat-header">
+            <div class="header-info">
+                <img class="bot-logo" src="assets/images/bot.svg" alt="Chatbot Logo">
+                <h2 class="logo-text">Chat Bot</h2>
+                <button class="close-btn" onclick="toggleChat()">×</button>
+            </div>
+        </div>
+        <div class="chat-body">
+            <div class="message bot-message">
+                <div class="message-text">
+                    Hey there 👋 <br> How can I help you
+                </div>
+            </div>
+            
+        </div>
+    
+        <div class="chat-footer">
+            <form action="#" class="chat-form">
+                <textarea placeholder="Message..." class="message-input" required></textarea>
+                <div class="chat-controls">
+                    <button type="submit" class="material-symbols-rounded" id="send-message">
+                        arrow_upward
+                    </button>
+
+                </div>
+            </form>
+        </div>
     </div>
 
     <div class="content">

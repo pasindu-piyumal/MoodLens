@@ -70,7 +70,7 @@ if(isset($_POST["submit"])){
             exit();
         }
     } else {
-        $file_name = "default.png"; // Default image
+        $file_name = "uploads/default.png"; // Default image
     }
 
     createUser($conn, $name, $email, $username, $age, $gender, $file_name, $pwd);

@@ -20,7 +20,8 @@ $email = htmlspecialchars($user["usersEmail"] ?? "Not provided");
 $name = htmlspecialchars($user["usersName"] ?? "Not provided");
 $age = htmlspecialchars($user["usersAge"] ?? "Not provided");
 $gender = htmlspecialchars($user["usersGender"] ?? "Not specified");
-$profile_pic = !empty($user["profile_pic"]) ? htmlspecialchars($user["profile_pic"]) : "uploads/default.png";
+$profile_pic = !empty($user["profile_pic"]) ? htmlspecialchars($user["profile_pic"]) : "../uploads/default.png";
+
 ?>
 
 <!DOCTYPE html>

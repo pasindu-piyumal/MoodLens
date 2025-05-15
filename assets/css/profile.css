@@ -12,7 +12,12 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: linear-gradient(70deg, #000103, rgb(48, 167, 188));
+    background: 
+        linear-gradient(70deg, #000103, rgba(0, 0, 0, 0.452)), 
+        url('../images/profile.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: overlay;
 }
 
 .profile{
@@ -22,6 +27,7 @@ body{
     max-width: 370px;
     width: 100%;
     background: #000000;
+    border: 2px solid #45f3ff;
     border-radius: 24px;
     padding: 30px;
     box-shadow: 20px 20px 10px 5px rgba(0, 0, 0, 0.5);
@@ -33,10 +39,13 @@ body{
     position: absolute;
     height: 36%;
     width: 100%;
-    background-color: aqua;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.778);
     top: 0;
     left: 0;
     border-radius: 24px 24px 0 0;
+    border-bottom: 1px solid #45f3ff;
+
 }
 
 .image{

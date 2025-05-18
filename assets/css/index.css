@@ -1095,6 +1095,12 @@ button:hover span {
     border-radius: 32px;
 }
 
+.message-input::placeholder {
+  color: rgba(0, 0, 0, 0.748);
+  opacity: 2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .chat-footer .chat-form:focus-within{
     outline: 2px solid black;
 }
@@ -1110,6 +1116,7 @@ button:hover span {
     color: #000;
     padding: 14px 0 13px 18px;
     border-radius: inherit;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 

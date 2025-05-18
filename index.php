@@ -32,40 +32,6 @@
         </ul>
     </div>
 
-    <div class="chatbot-icon" onclick="toggleChat()">
-        <img width="50" height="50" src="https://img.icons8.com/nolan/64/chatbot.png" alt="chatbot"/>
-    </div>
-
-    <div class="chatbot-popup" id="chatWindow" style="display: none;">
-        <div class="chat-header">
-            <div class="header-info">
-                <img class="bot-logo" src="assets/images/bot.svg" alt="Chatbot Logo">
-                <h2 class="logo-text">Chat Bot</h2>
-                <button class="close-btn" onclick="toggleChat()">×</button>
-            </div>
-        </div>
-        <div class="chat-body">
-            <div class="message bot-message">
-                <div class="message-text">
-                    Hey there 👋 <br> How can I help you
-                </div>
-            </div>
-            
-        </div>
-    
-        <div class="chat-footer">
-            <form action="#" class="chat-form">
-                <textarea placeholder="Message..." class="message-input" required></textarea>
-                <div class="chat-controls">
-                    <button type="submit" class="material-symbols-rounded" id="send-message">
-                        arrow_upward
-                    </button>
-
-                </div>
-            </form>
-        </div>
-    </div>
-
     <div class="content">
         <h1><span class="head-part1">DECODE YOUR</span> <span class="head-part2">MOOD</span>, EMPOWER YOUR STUDY</h1>
         <p>Struggling to balance social media and studying? <br> Discover how your online activity affects your focus and mood. <br> Our cutting-edge analyzer provides insights into your study habits and emotional patterns to help you succeed academically and maintain a positive mindset.</p>

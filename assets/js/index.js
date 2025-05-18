@@ -159,3 +159,7 @@ messageInput.addEventListener("keydown", (e) => {
 });
 
 sendMessageButton.addEventListener("click", (e) => handleOutgoingMessage(e));
+
+document.getElementById("showdetailsbtn").addEventListener("click", function () {
+    document.querySelector(".features").classList.toggle("expanded");
+})

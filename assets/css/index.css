@@ -655,21 +655,26 @@ button:hover {
 
 .features {
     position: relative;
-    height: 800px;
+    height: 600px;
     overflow: hidden;
     margin-top: 15%;
     background: 
         linear-gradient(
             to bottom,
-            rgba(0, 0, 0, 0.866), /* Light black at the top */
-            rgba(0, 0, 0, 0.823), /* Darker black in the middle */
-            transparent /* Fully transparent at the bottom */
+            rgba(0, 0, 0, 0.866), 
+            rgba(0, 0, 0, 0.823), 
+            transparent 
         ),
         
-        url(../images/bg.jpg); /* Background image */
+        url(../images/bg.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    transition: height 0.5s ease;
+}
+
+.features.expanded {
+    height: 850px; 
 }
 
 

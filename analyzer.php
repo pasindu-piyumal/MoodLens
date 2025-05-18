@@ -23,8 +23,7 @@
         </div>
         <ul id="nav-menu" class="nav-menu">
             <li><a href="home.php">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="library.php">Library</a></li>
             <?php
             if (isset($_SESSION["username"])) {
                 echo '<li><a href="includes/logout.inc.php">Logout</a></li>';

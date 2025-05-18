@@ -45,7 +45,7 @@
             <div class="inputBox">
                 <label for="study-time">Study Time (hours):</label>
                 <div class="range-container">
-                    <input type="range" id="study-time" name="study-time" min="0" max="25" value="0" oninput="updateValue(this.value, 'study-value')">
+                    <input type="range" id="study-time" name="study-time" min="0" max="24" value="0" oninput="updateValue(this.value, 'study-value')">
                     <span id="study-value">0</span>
                 </div>
             </div>  
@@ -53,7 +53,7 @@
             <div class="inputBox">
                 <label for="facebook-time">Facebook Time (hours):</label>
                 <div class="range-container">
-                    <input type="range" id="facebook-time" name="facebook-time" min="0" max="25" value="0" oninput="updateValue(this.value, 'facebook-value')">
+                    <input type="range" id="facebook-time" name="facebook-time" min="0" max="24" value="0" oninput="updateValue(this.value, 'facebook-value')">
                     <span id="facebook-value">0</span>
                 </div>
             </div>
@@ -61,7 +61,7 @@
             <div class="inputBox">
                 <label for="instagram-time">Instagram Time (hours):</label>
                 <div class="range-container">
-                    <input type="range" id="instagram-time" name="instagram-time" min="0" max="25" value="0" oninput="updateValue(this.value, 'instagram-value')">
+                    <input type="range" id="instagram-time" name="instagram-time" min="0" max="24" value="0" oninput="updateValue(this.value, 'instagram-value')">
                     <span id="instagram-value">0</span>
                 </div>
             </div>
@@ -69,7 +69,7 @@
             <div class="inputBox">
                 <label for="whatsapp-time">WhatsApp Time (hours):</label>
                 <div class="range-container">
-                    <input type="range" id="whatsapp-time" name="whatsapp-time" min="0" max="25" value="0" oninput="updateValue(this.value, 'whatsapp-value')">
+                    <input type="range" id="whatsapp-time" name="whatsapp-time" min="0" max="24" value="0" oninput="updateValue(this.value, 'whatsapp-value')">
                     <span id="whatsapp-value">0</span>
                 </div>
             </div>
@@ -77,7 +77,7 @@
             <div class="inputBox">
                 <label for="youtube-time">YouTube Time (hours):</label>
                 <div class="range-container">
-                    <input type="range" id="youtube-time" name="youtube-time" min="0" max="25" value="0" oninput="updateValue(this.value, 'youtube-value')">
+                    <input type="range" id="youtube-time" name="youtube-time" min="0" max="24" value="0" oninput="updateValue(this.value, 'youtube-value')">
                     <span id="youtube-value">0</span>
                 </div>
             </div>
@@ -85,7 +85,7 @@
             <div class="inputBox">
                 <label for="tiktok-time">TikTok Time (hours):</label>
                 <div class="range-container">
-                    <input type="range" id="tiktok-time" name="tiktok-time" min="0" max="25" value="0" oninput="updateValue(this.value, 'tiktok-value')">
+                    <input type="range" id="tiktok-time" name="tiktok-time" min="0" max="24" value="0" oninput="updateValue(this.value, 'tiktok-value')">
                     <span id="tiktok-value">0</span>
                 </div>
             </div>
@@ -93,7 +93,7 @@
             <div class="inputBox">
                 <label for="telegram-time">Telegram Time (hours):</label>
                 <div class="range-container">
-                    <input type="range" id="telegram-time" name="telegram-time" min="0" max="25" value="0" oninput="updateValue(this.value, 'telegram-value')">
+                    <input type="range" id="telegram-time" name="telegram-time" min="0" max="24" value="0" oninput="updateValue(this.value, 'telegram-value')">
                     <span id="telegram-value">0</span>
                 </div>
             </div>

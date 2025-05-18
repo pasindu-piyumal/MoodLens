@@ -50,7 +50,7 @@ $profile_pic = !empty($user["profile_pic"]) ? htmlspecialchars($user["profile_pi
             <button><a href="includes/logout.inc.php">Logout</a></button>
         </div>
         <div class="back-btn">
-            <button><a href="index.php">Go to Home</a></button>
+            <button><a href="home.php">Go to Home</a></button>
         </div>
 
 </div>

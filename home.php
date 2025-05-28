@@ -21,6 +21,13 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="#featuresSection">Features</a></li>
             <li><a href="library.php">Library</a></li>
+            <li class="no-underline">
+                Feedbacks
+                <div class="dropdown">
+                    <a href="feedback.php">Add Feedbacks</a>
+                    <a href="all_feedbacks.php">Show Feedbacks</a>
+                </div>
+            </li>
             <?php
             if (isset($_SESSION["username"])) {
                 echo '<li><a href="includes/logout.inc.php">Logout</a></li>';

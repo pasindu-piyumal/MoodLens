@@ -25,6 +25,13 @@
         <ul id="nav-menu" class="nav-menu">
             <li><a href="home.php">Home</a></li>
             <li><a href="#">Library</a></li>
+            <li class="dropdown-parent">
+                Feedbacks
+                <div class="dropdown">
+                    <a href="feedback.php">Add Feedback</a>
+                    <a href="all_feedbacks.php">Show Feedbacks</a>
+                </div>
+            </li>
             <?php
             if (isset($_SESSION["username"])) {
                 echo '<li><a href="includes/logout.inc.php">Logout</a></li>';

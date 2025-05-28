@@ -21,6 +21,13 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="#featuresSection">Features</a></li>
             <li><a href="login.php">Library</a></li>
+            <li class="no-underline">
+                Feedbacks
+                <div class="dropdown">
+                    <a href="login.php">Add Feedbacks</a>
+                    <a href="login.php">Show Feedbacks</a>
+                </div>
+            </li>
             
             <?php
             if (isset($_SESSION["username"])) {

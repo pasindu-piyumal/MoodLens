@@ -24,12 +24,20 @@
         <ul id="nav-menu" class="nav-menu">
             <li><a href="home.php">Home</a></li>
             <li><a href="library.php">Library</a></li>
+            <li class="dropdown-parent">
+                Feedbacks
+                <div class="dropdown">
+                    <a href="feedback.php">Add Feedback</a>
+                    <a href="all_feedbacks.php">Show Feedbacks</a>
+                </div>
+            </li>
+
             <?php
             if (isset($_SESSION["username"])) {
                 echo '<li><a href="includes/logout.inc.php">Logout</a></li>';
                 echo '<li><span class="user"><a href=""><a href="profile.php">' . htmlspecialchars($_SESSION["username"]) . '</a> </span></li>';
             } else {
-                echo '<li><a href="login.php">Login</a></li>';  // Show login link if user is not logged in
+                echo '<li><a href="login.php">Login</a></li>';  
             }
             ?>
         </ul>
